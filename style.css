@@ -1,0 +1,70 @@
+*,
+*::before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+body {
+
+    text-align: center;
+    height: 100vh;
+    background: hsl(185, 75%, 39%);
+    background-position:
+      top 10px left 10px,
+      bottom 10px right 10px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image:
+      url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1198px;
+    height: 80vh;
+   
+    
+}
+
+.card {
+    border-radius: 2em;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card-middle {
+    display: grid;
+    place-items: center;
+    margin-top: -3rem;
+    border-bottom: 1px solid hsl(0, 5%, 89%);
+    padding-bottom: 1rem;
+}
+
+.profile-pic {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
+
+.card-location {
+    padding: 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
